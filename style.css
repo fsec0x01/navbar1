@@ -50,6 +50,7 @@ a:hover{
     background: #1b9bff;
     padding: 5px;
     transition: .5s;
+    padding: 7px 13px;
 }
 .banner{
     background-image: url("asset/banner.jpg");
