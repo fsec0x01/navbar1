@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    background: #0082e6;
+    display: flex;
+}
+label.logo{
+    color: #fff;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+}
+nav ul li{
+    list-style-type: none; 
+    line-height: 80px;
+    margin: 0 5px;
+    
+}
+nav ul li a{
+    color: #fff;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    
+}
+a:hover{
+    background: #1b9bff;
+    padding: 5px;
+    transition: .5s;
+}
+.banner{
+    background-image: url("asset/banner.jpg");
+     width: 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 300px;
+     text-align: center;
+     color: #e8ecf0;
+}
+.banner h1{
+    padding-top: 50px;
+    margin-bottom: 5px;
+}
+.btn{
+    border: 0;
+    border-radius: 10px;
+    background: #5fa376;
+    color: #fff;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.btn:hover{
+    background: #240bad;
+    padding: 15px;
+    transition: .5s;
+}
+.card{
+   background: linear-gradient(skyblue, rgb(120, 120, 212)); 
+   padding: 15px 10px; 
+   padding-bottom: 20px;
+
+}
+.card-heading{
+   text-align: center;
+   color: #fff; 
+   border-bottom: 1px solid #fff;
+   
+}
+ .card-product{
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.card-product img{
+    height: 250px;
+    width: 100%;
+     
+     
+}
+.box{
+    border: 1px solid #fff;
+    margin: 5px;
+    background: #0082e6;
+    border-radius: 2px;
+    color: #e8ecf0;
+}
+.box:hover{
+    background: #1b9bff;
+}
+.box h3{
+    color: #e2d3d3;
+    margin: 5px;
+}
+.box button{
+    text-decoration: none;
+    padding: 5px;
+    background: #160a86;
+    color: #cad2d8;
+    margin: 10px 5px;
+    border-radius: 5px;
+    font-weight: bold ;
+}
+.box button:hover{
+    background: #418072;
+}
+footer{
+    text-align: center;
+    color: #1c773a;
+    padding: 10px;
+}
