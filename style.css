@@ -90,6 +90,10 @@ a:hover{
    color: #fff; 
    
 }
+.our-products{
+    border-bottom: 2px solid #96a0c8; 
+     
+}
  .card-product{
     display: flex;
 
